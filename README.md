@@ -1,2 +1,3 @@
-#Learning Semantic Entailment and Contradiction
+# Learning Semantic Entailment and Contradiction
+
 We build and train models to learn the logical relations between pairs of sentences — that is, semantic entailment and contradiction — in the Stanford Natural Language Inference (SNLI) corpus. Similar to Bowman et al. (2015), we construct a baseline model upon handcrafted unlexicalized and lexicalized features and compare it to deep-learning methods based on LSTMs. As shown by Bowman et al., we confirm that LSTM-based models can perform competitively or better on the SNLI corpus and achieve a best accuracy rate of 76.12% on the test set. We also experiment with certain variations on the architecture.
